@@ -1284,6 +1284,10 @@ p {
 
 .arrow_first_slide {
   width: 40px;
+  margin-top: 0px;
+}
+
+.link-block {
   margin-top: 35px;
 }
 
@@ -1639,7 +1643,11 @@ p {
 
   .arrow_first_slide {
     width: 40px;
-    margin-top: 35px;
+    margin-top: 0px;
+  }
+
+  .link-block.w--current {
+    margin-top: 65px;
   }
 }
 
@@ -2274,9 +2282,13 @@ p {
 
   .arrow_first_slide {
     width: 40px;
-    margin-top: 35px;
+    margin-top: 0px;
     -webkit-transition: all 300ms ease;
     transition: all 300ms ease;
+  }
+
+  .link-block {
+    margin-top: 65px;
   }
 }
 
